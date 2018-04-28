@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="YoutubeApi.ChannelPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:YoutubeApi"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock HorizontalAlignment="Left" Margin="206,25,0,0" FontSize="20" Text="CHÀO MỪNG QUÝ KHÁCH ,CHÚC QUÝ KHÁCH XEM YOUTUBE VUI VẺ" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="206,120,0,0" Text="Danh Mục" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="206,200,0,0" Text="Hoạt Hình" TextWrapping="Wrap" VerticalAlignment="Top" />
+        <TextBlock HorizontalAlignment="Left" Margin="206,280,0,0" Text="Ca Nhạc" TextWrapping="Wrap" VerticalAlignment="Top" />
+        <TextBlock HorizontalAlignment="Left" Margin="206,360,0,0" Text="Phim Hay" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button Content="VTV-Sunrise" x:Name="btnKid" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="360,200,0,0" Click="btnKid_Click"  />
+        <Button Content="Baby Bum" x:Name="btnBaby" HorizontalAlignment="Left" Margin="550,200,0,0" VerticalAlignment="Top" Click="btnBaby_Click" />
+        <Button Content="K-Music" x:Name="btnBigBang" HorizontalAlignment="Left" Margin="360,280,0,0" VerticalAlignment="Top" Click="btnBigBang_Click" />
+        <Button Content="Zing Mp3" x:Name="btnZing" HorizontalAlignment="Left" Margin="550,280,0,0" VerticalAlignment="Top" Click="btnZing_Click" />
+        <Button Content="Hài Tổng Hợp" x:Name="btnPhimHai" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="360,360,0,0" Click="btnPhimHai_Click"/>
+        <Button Content="Hành Động" x:Name="btnHanhDong" HorizontalAlignment="Left" Margin="550,360,0,0" VerticalAlignment="Top" Click="btnHanhDong_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="206,440,0,0" Text="Thể Thao" TextWrapping="Wrap" VerticalAlignment="Top" />
+        <Button Content="Tin Tức 24h" x:Name="btnTinTuc" HorizontalAlignment="Left" Margin="360,440,0,0" VerticalAlignment="Top" Click="btnTinTuc_Click"/>
+        <Button Content="On Sport" x:Name="btnOnSport" HorizontalAlignment="Left" Margin="550,440,0,0" VerticalAlignment="Top" Click="btnOnSport_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="206,520,0,0" Text="VTV" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-0.323,0.4"/>
+        <Button Content="VTV News" x:Name="btnVtvNews" HorizontalAlignment="Left" Margin="360,520,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.923,-6.562" Click="btnVtvNews_Click" />
+        <Button Content="VTV Thời Sự" x:Name="btnThoiSu" HorizontalAlignment="Left" Margin="550,520,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.123,-0.688" Click="btnThoiSu_Click" />
+        <Button Content="Xem Video Tải Về" x:Name="btnOpenFile" HorizontalAlignment="Left" Margin="400,120,0,0" VerticalAlignment="Top" Click="btnOpenFile_Click"/>
+
+    </Grid>
+</Page>
